@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Heart corrector",
+  "version": "0.1.0",
+  "description": "Corinne Revel's perfect shades of blue",
+
+  "content_scripts": [{
+    "js" : ["content.js"],
+    "matches": ["https://www.facebook.com/*", "http://www.facebook.com/*"]
+  }]
+
+}
